@@ -99,7 +99,7 @@ if [ "$SKIP_TRAINING" = false ]; then
        --apply-chat-template
        --rollout-shuffle
        --rm-type deepscaler
-       --num-rollout 10
+       --num-rollout 3000
        --rollout-batch-size 32
        --n-samples-per-prompt 8
        --rollout-max-response-len 8192
